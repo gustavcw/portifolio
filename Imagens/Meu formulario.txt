@@ -1,0 +1,47 @@
+	Meu formulario 
+
+
+
+   <div class="Formulario">
+    
+        <div class="row g-3">
+    <div class="col">
+        <label for="text" class="form-label">Nome</label>
+        <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+    </div>
+    <div class="col">
+        <label for="text" class="form-label">Ultimo Sobrenome</label>
+        <input type="text" class="form-control" placeholder="Ultimo sobrenome" aria-label="Last name">
+    </div>
+        </div>   <br>
+
+
+    <form class="row g-3">
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+    </div>
+
+
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="N°,Rua, CEP e Estado.">
+    </div>
+
+
+    <div class="col-12">
+        <label for="inputAddress2" class="form-label">Complemento</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento,Estudio,casa..">
+    </div>
+
+   
+
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-outline-dark">Sign in</button>
+    </div>
+
+
+    </form>
+
+</div>
